@@ -7,6 +7,25 @@
   pointer-events: none;
 }
 
+.idCard{
+  border: 1.3px solid black;
+  display: flex;
+  justify-content: flex-start;
+  padding: 5px;
+  margin: 5px;
+}
+
+.idCard>img{
+  margin-right: 20px;
+}
+
+.idCard>div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
