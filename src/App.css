@@ -26,6 +26,15 @@
   align-items: flex-start;
 }
 
+.boxColor{
+  border: 1.3px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 10px;
+  margin: 5px;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
